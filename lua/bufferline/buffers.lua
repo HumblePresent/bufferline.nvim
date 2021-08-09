@@ -21,6 +21,8 @@ local M = {}
 ---@field public buftype string
 ---@field public letter string
 ---@field public ordinal number
+---@field public group Group
+---@field public group_fn string
 M.Buffer = {}
 
 ---create a new buffer class
